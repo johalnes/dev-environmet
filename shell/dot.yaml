@@ -1,3 +1,4 @@
-links:
-  scripts: ~/scripts
-  kitty: ~/.config/kitty
+installs:
+  cmd: |
+    tool=$(echo {{ name }} | cut -d'/' -f2)
+    brew install --cask $tool
