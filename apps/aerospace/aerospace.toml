@@ -180,8 +180,24 @@ alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = 'com.github.wez.wezterm'
-run = "move-node-to-workspace T"
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'com.googlecode.iterm2'
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome'
-run = "move-node-to-workspace B"
+run = "move-node-to-workspace 1"
+
+[[on-window-detected]]
+if.app-id = 'org.mozilla.com.zen.browser'
+run = "move-node-to-workspace 1"
+
+[[on-window-detected]]
+if.app-id = 'notion.id'
+run = "move-node-to-workspace 4"
