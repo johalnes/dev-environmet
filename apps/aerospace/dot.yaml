@@ -1,1 +1,4 @@
-installs: null
+installs: brew install --cask nikitabobko/tap/aerospace
+
+links:
+  aerospace.toml: ~/.config/aerospace.toml
