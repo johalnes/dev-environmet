@@ -2,3 +2,5 @@ installs: null
 
 links:
   sketchybarrc: ~/.config/sketchybar/sketchybarrc
+  plugins: ~/.config/sketchybar/plugins
+  items: ~/.config/sketchybar/items
