@@ -1,0 +1,4 @@
+links:
+  starship.toml: ~/.config/starship.toml
+depends:
+  - ../brew
