@@ -4,4 +4,5 @@ links:
   sketchybarrc: ~/.config/sketchybar/sketchybarrc
   plugins: ~/.config/sketchybar/plugins
   items: ~/.config/sketchybar/items
+  default.lua: ~/.config/sketchybar/default.lua
   colors.sh: ~/.config/sketchybar/colors.sh
