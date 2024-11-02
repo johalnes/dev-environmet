@@ -1,0 +1,4 @@
+links:
+  .westerm.lua: .westerm.lua
+depends:
+  - ../brew

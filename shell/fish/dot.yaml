@@ -1,0 +1,6 @@
+links:
+  config.fish: ~/.config/fish/config.fish
+  fish_plugins: ~/.config/fish/fish_plugins
+  aliases.fish: ~/.config/fish/aliases.fish
+  functions: ~/.config/fish/functions
+  tool_config.fish: ~/.config/fish/tool_config.fish
