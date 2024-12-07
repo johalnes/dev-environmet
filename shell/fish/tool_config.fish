@@ -1,8 +1,8 @@
 # Set the theme for bat
-set -x -g BAT_THEME Catppuccin-frappe
+set -x -g BAT_THEME Catppuccin-mocha
 
 # Set theme for tools that use LS_COLORS (fd, tree, eza etc)
-set -Ux LS_COLORS (vivid generate catppuccin-frappe)
+# set -Ux LS_COLORS (vivid generate catppuccin-mocha)
 
 # Set the theme, preview command, and custom bindings for fzf
 set -Ux FZF_DEFAULT_OPTS "\

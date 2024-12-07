@@ -1,0 +1,4 @@
+installs: null
+
+links:
+  config.toml: ~/.config/helix/config.toml
