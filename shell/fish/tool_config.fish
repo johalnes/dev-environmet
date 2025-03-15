@@ -22,7 +22,7 @@ set -Ux FZF_DEFAULT_OPTS "\
 ## set Ctrl-f to do a fzf file search in the current directory
 fzf_configure_bindings --directory=\cf
 ## set Ctrl-o to open the selected file in nvim
-set fzf_directory_opts --bind 'ctrl-o:become(nvim {})'
+set fzf_directory_opts --bind 'ctrl-o:become(hx {})'
 ## fzf show hidden files by default
 set fzf_fd_opts --hidden
 ## fzf preview use bat with color and line numbers for file preview

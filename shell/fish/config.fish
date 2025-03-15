@@ -46,7 +46,11 @@ fish_vi_key_bindings
 
 # uv
 
-fish_add_path "/Users/johannesalnes/.local/bin"
+fish_add_path "$HOME/.local/bin"
+
+#rustup
+fish_add_path "$HOME/cargo/bin"
+
 # Unset the default fish greeting text which messes up Zellij
 set fish_greeting
 

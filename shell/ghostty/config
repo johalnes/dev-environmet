@@ -12,6 +12,7 @@ theme = catppuccin-mocha
 font-feature = -liga
 
 macos-titlebar-style = transparent
+macos-option-as-alt = left
 
 # Unbind CMD+... keys so they will be forwarded to Zellij
 keybind = cmd+t=unbind
