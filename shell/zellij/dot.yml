@@ -1,0 +1,4 @@
+links:
+  config.kdl: ~/.config/zellij/config.kdl
+depends:
+  - ../brew

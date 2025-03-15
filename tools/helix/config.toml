@@ -5,3 +5,7 @@ theme = "catppuccin_mocha"
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[keys.normal]
+C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+

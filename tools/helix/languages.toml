@@ -1,0 +1,50 @@
+
+[language-server.pylsp.config.pylsp]
+plugins.ruff.enabled = true
+
+# [[language]]
+# name = "python"
+# language-id = "python"
+# #language-servers = ["ruff", "basedpyright"]
+
+[[language]]
+
+name = "python"
+language-servers = ["ruff", "basedpyright"]
+auto-format = true
+formatter = { command = "uvx", args = ["sh", "-c", "ruff check --fix - | ruff format -"] }
+file-types = ["py", "ipynb"]
+comment-token = "#"
+shebangs = ["python"]
+
+[language-server.basedpyright]
+command = "uv"
+args = ["run", "basedpyright-langserver", "--stdio"]
+
+# [language-server.basedpyright.config]
+
+
+[language-server.ruff]
+command = "uvx"
+args = ["ruff","server"]
+environment = { "RUFF_TRACE" = "messages" }
+
+[language-server.ruff.config.settings]
+lineLength = 100
+
+[language-server.ruff.config.settings.lint]
+select = ["E4", "E7"]
+preview = false
+
+[language-server.ruff.config.settings.format]
+preview = true
+
+[[language]]
+name="rust"
+formatter = { command = "rustfmt" }
+auto-format = true
+
+[language-server.rust-analyzer.config]
+checkOnSave = {command = "clippy", extraArgs = ["--", "-W", "clippy::pedantic"]}
+cargo = {allFeatures = true}
+procMacro = {enable = true }
